@@ -1,0 +1,12 @@
+{
+    "name": "jef/movies-module",
+    "type": "streams-addon",
+    "autoload": {
+        "psr-4": {
+            "Jef\\MoviesModule\\": "src/"
+        }
+    },
+    "require": {
+        "jef/languages-module": "*"
+    }
+}
