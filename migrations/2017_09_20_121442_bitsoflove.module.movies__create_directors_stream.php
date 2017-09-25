@@ -2,7 +2,7 @@
 
 use Anomaly\Streams\Platform\Database\Migration\Migration;
 
-class JefModuleMoviesCreateDirectorsStream extends Migration
+class BitsofloveModuleMoviesCreateDirectorsStream extends Migration
 {
 
     /**

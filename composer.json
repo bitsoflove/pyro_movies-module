@@ -1,12 +1,12 @@
 {
-    "name": "jef/movies-module",
+    "name": "bitsoflove/movies-module",
     "type": "streams-addon",
     "autoload": {
         "psr-4": {
-            "Jef\\MoviesModule\\": "src/"
+            "Bitsoflove\\MoviesModule\\": "src/"
         }
     },
     "require": {
-        "jef/languages-module": "*"
+        "bitsoflove/languages-module": "*"
     }
 }

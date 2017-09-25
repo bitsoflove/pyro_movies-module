@@ -31,7 +31,7 @@ class AssignmentsController extends AdminController
             ->notAssignedTo($streams->find($this->route->getParameter('stream')))
             ->unlocked();
 
-        return $this->view->make('jef.module.movies::admin/assignments/choose', compact('fields', 'type'));
+        return $this->view->make('bitsoflove.module.movies::admin/assignments/choose', compact('fields', 'type'));
     }
 
     /**

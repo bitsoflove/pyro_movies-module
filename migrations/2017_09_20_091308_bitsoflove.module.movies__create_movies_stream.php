@@ -2,7 +2,7 @@
 
 use Anomaly\Streams\Platform\Database\Migration\Migration;
 
-class JefModuleMoviesCreateMoviesStream extends Migration
+class BitsofloveModuleMoviesCreateMoviesStream extends Migration
 {
 
     /**
@@ -57,14 +57,14 @@ class JefModuleMoviesCreateMoviesStream extends Migration
         'spoken_language' => [
             'type' => 'anomaly.field_type.relationship',
             'config' => [
-                'related' => Jef\LanguagesModule\Language\LanguageModel::class,
+                'related' => Bitsoflove\LanguagesModule\Language\LanguageModel::class,
             ],
         ],
 
         'subtitle_language' => [
             'type' => 'anomaly.field_type.relationship',
             'config' => [
-                'related' => Jef\LanguagesModule\Language\LanguageModel::class,
+                'related' => Bitsoflove\LanguagesModule\Language\LanguageModel::class,
             ],
         ],
 
