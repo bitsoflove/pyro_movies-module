@@ -73,7 +73,7 @@ class BitsofloveModuleMoviesCreateMoviesStream extends Migration
         ],
 
         'url_trailer' => [
-            'type' =>'anomaly.field_type.text',
+            'type' =>'anomaly.field_type.url',
         ],
 
         'meta' => [
@@ -145,7 +145,7 @@ class BitsofloveModuleMoviesCreateMoviesStream extends Migration
         'url_trailer' => [
             'unique' => true,
             'required' => false,
-            'translatable' => false,
+            'translatable' => true,
 
         ],
 
