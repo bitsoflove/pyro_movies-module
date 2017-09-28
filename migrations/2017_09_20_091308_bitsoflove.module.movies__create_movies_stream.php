@@ -28,7 +28,7 @@ class BitsofloveModuleMoviesCreateMoviesStream extends Migration
 
 
         'synopsis' => [
-            'type' =>'anomaly.field_type.textarea',
+            'type' =>'anomaly.field_type.wysiwyg',
         ],
 
         'director' => [
