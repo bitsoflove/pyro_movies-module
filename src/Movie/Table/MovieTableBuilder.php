@@ -17,14 +17,23 @@ class MovieTableBuilder extends TableBuilder
      *
      * @var array|string
      */
-    protected $filters = [];
+    protected $filters = [
+        'search' => [
+            'columns' => [
+                'title',
+            ]
+        ],
+    ];
 
     /**
      * The table columns.
      *
      * @var array|string
      */
-    protected $columns = [];
+    protected $columns = [
+        'title',
+        'director'
+    ];
 
     /**
      * The table buttons.
@@ -49,7 +58,10 @@ class MovieTableBuilder extends TableBuilder
      *
      * @var array
      */
-    protected $options = [];
+    protected $options = [
+        'enable_pagination' => true,
+        'limit' => 50,
+    ];
 
     /**
      * The table assets.
