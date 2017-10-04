@@ -23,7 +23,7 @@ class MovieTableFilters
      */
     public function handle(MovieTableBuilder $builder)
     {
-        $builder->setFields([
+        $builder->setFilters([
             'search' => [
                 'columns' => [
                     'title',
