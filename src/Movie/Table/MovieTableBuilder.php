@@ -17,13 +17,7 @@ class MovieTableBuilder extends TableBuilder
      *
      * @var array|string
      */
-    protected $filters = [
-        'search' => [
-            'columns' => [
-                'title',
-            ]
-        ],
-    ];
+    protected $filters = MovieFormFilters::class;
 
     /**
      * The table columns.
