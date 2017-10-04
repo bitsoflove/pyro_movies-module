@@ -11,7 +11,7 @@ use Illuminate\Support\Collection;
  * @author        PyroCMS, Inc. <support@pyrocms.com>
  * @author        Ryan Thompson <ryan@pyrocms.com>
  */
-class MovieTableFilters
+class MovieTableColumns
 {
     use DispatchesJobs;
 
@@ -23,12 +23,9 @@ class MovieTableFilters
      */
     public function handle(MovieTableBuilder $builder)
     {
-        $builder->setFilters([
-            'search' => [
-                'columns' => [
-                    'title',
-                ]
-            ],
+        $builder->setColumns([
+            'title',
+            'director'
         ]);
     }
 
