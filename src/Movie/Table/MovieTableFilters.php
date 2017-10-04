@@ -11,7 +11,7 @@ use Illuminate\Support\Collection;
  * @author        PyroCMS, Inc. <support@pyrocms.com>
  * @author        Ryan Thompson <ryan@pyrocms.com>
  */
-class MovieFormFilters
+class MovieTableFilters
 {
     use DispatchesJobs;
 
