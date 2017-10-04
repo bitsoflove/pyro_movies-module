@@ -20,6 +20,9 @@ class MovieFormBuilder extends FormBuilder
      */
     protected $sections = MovieFormSections::class;
 
+    protected $skips = [
+        'slug'
+    ];
 
 
 }
