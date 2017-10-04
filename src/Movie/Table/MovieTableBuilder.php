@@ -24,10 +24,7 @@ class MovieTableBuilder extends TableBuilder
      *
      * @var array|string
      */
-    protected $columns = [
-        'title',
-        'director'
-    ];
+    protected $columns = MovieTableColumns::class;
 
     /**
      * The table buttons.
