@@ -49,7 +49,10 @@ class DirectorTableBuilder extends TableBuilder
      *
      * @var array
      */
-    protected $options = [];
+    protected $options = [
+        'enable_pagination' => true,
+        'limit' => 50,
+    ];
 
     /**
      * The table assets.
