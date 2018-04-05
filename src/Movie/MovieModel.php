@@ -5,5 +5,5 @@ use Anomaly\Streams\Platform\Model\Movies\MoviesMoviesEntryModel;
 
 class MovieModel extends MoviesMoviesEntryModel implements MovieInterface
 {
-    protected $with = ['translations'];
+    protected $with = ['translations','director'];
 }
