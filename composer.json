@@ -1,12 +1,23 @@
 {
-    "name": "bitsoflove/movies-module",
-    "type": "streams-addon",
-    "autoload": {
-        "psr-4": {
-            "Bitsoflove\\MoviesModule\\": "src/"
-        }
-    },
-    "require": {
-        "bitsoflove/languages-module": "*"
+  "name": "bitsoflove/movies-module",
+  "type": "streams-addon",
+  "autoload": {
+    "psr-4": {
+      "Bitsoflove\\MoviesModule\\": "src/"
     }
+  },
+  "require": {
+    "bitsoflove/languages-module": "^0.1.0"
+  },
+  "keywords": [
+    "pyro",
+    "module"
+  ],
+  "authors": [
+    {
+      "name": "Bits of Love",
+      "email": "docotorlove@bitsoflove.be",
+      "role": "Developer"
+    }
+  ]
 }
