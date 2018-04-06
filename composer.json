@@ -7,7 +7,7 @@
     }
   },
   "require": {
-    "bitsoflove/languages-module": "*"
+    "bitsoflove/languages-module": "^0.1.0"
   },
   "keywords": [
     "pyro",
